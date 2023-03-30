@@ -1,7 +1,7 @@
 import openai
 
 # Set your API key
-openai.api_key = "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"
+openai.api_key = "your_open_ai_key"
 
 def generate_response(prompt, model="text-davinci-003", max_tokens=100):
     response = openai.Completion.create(
